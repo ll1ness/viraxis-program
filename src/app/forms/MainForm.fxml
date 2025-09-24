@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="456" style="&#10;-fx-background-color: #f2f2f200;" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="21" id="image15" layoutX="104" layoutY="240" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image12" layoutX="264" layoutY="256" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image11" layoutX="416" layoutY="192" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="29" layoutY="6" prefHeight="17" prefWidth="112" styleClass="label " text="ViraXis" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Press Start 2P Regular" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="138" layoutY="6" prefHeight="16" prefWidth="96" styleClass="label " text="ver. 17.2" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="248" layoutY="464" prefHeight="17" prefWidth="208" styleClass="label " text="ViraXis © 2025 Все права зафырканы." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="0" layoutY="464" prefHeight="17" prefWidth="152" styleClass="label " text="Made on IDE &quot;FXE Studio&quot;" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel" layoutX="176" layoutY="128" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="88" prefWidth="154" styleClass="" title="Визуальная часть" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="8" prefHeight="32" prefWidth="136" styleClass="button " text="Восстановить текст" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="4" layoutY="48" prefHeight="32" prefWidth="144" styleClass="button " text="Восстановить курсор" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panelAlt" layoutX="320" layoutY="288" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="168" prefWidth="120" styleClass="" title="Программы" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="8" layoutY="48" prefHeight="32" prefWidth="104" styleClass="button " text="Everything" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="8" layoutY="88" prefHeight="32" prefWidth="104" styleClass="button " text="Process hacker" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button6" layoutX="8" layoutY="8" prefHeight="32" prefWidth="104" styleClass="button " text="Notepad++" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button7" layoutX="8" layoutY="128" prefHeight="32" prefWidth="104" styleClass="button " text="Explorer++" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel4" layoutX="8" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="160" prefWidth="160" styleClass="" title="Anti-Debugger" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button9" layoutX="8" layoutY="80" prefHeight="32" prefWidth="144" styleClass="button " text="Диспетчер задач" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" id="button10" layoutX="4" layoutY="5" prefHeight="32" prefWidth="152" styleClass="button " text="Меню опций (CTRL+ALT+DEL)" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button11" layoutX="8" layoutY="42" prefHeight="32" prefWidth="144" styleClass="button " text="Меню питания" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel5" layoutX="160" layoutY="288" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="168" prefWidth="144" styleClass="" title="Системные apps" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button12" layoutX="8" layoutY="8" prefHeight="32" prefWidth="128" styleClass="button " text="Командная строка" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button12" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button14" layoutX="8" layoutY="48" prefHeight="32" prefWidth="128" styleClass="button " text="Диспетчер задач" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button14" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button15" layoutX="8" layoutY="88" prefHeight="32" prefWidth="128" styleClass="button " text="Проводник" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button15" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button16" layoutX="8" layoutY="128" prefHeight="32" prefWidth="128" styleClass="button " text="Параметры" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button16" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel5" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel6" layoutX="8" layoutY="248" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="208" prefWidth="144" styleClass="" title="Инструкция" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="8" layoutY="8" prefHeight="192" prefWidth="128" styleClass="label " text="ЛКМ - выполнить команду&#10;&#10;ПКМ - Узнать за что отвечает команда&#10;Программа в супер-раннем бета-тесте. Мы будем очень признательны, если оставите отзыв по" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="25" layoutY="178" prefHeight="17" prefWidth="48" styleClass="hyperlink " text="ссылке" textAlignment="LEFT" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Hyperlink>
+        <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="89" orientation="HORIZONTAL" prefHeight="8" prefWidth="128" style="&#10;-fx-background-color: #00000000;" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel6" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="21" id="imageAlt" layoutX="2" layoutY="2" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/V_logo_noir.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="21" id="image10" layoutX="352" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image10" image=".data/img/V_logo_noir.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image11" image=".data/img/V_logo_noir.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image12" image=".data/img/V_logo_noir.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image13" layoutX="184" layoutY="216" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image13" image=".data/img/V_logo_noir.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image15" image=".data/img/V_logo_noir.png" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button13" layoutX="336" layoutY="184" prefHeight="32" prefWidth="112" style="&#10;-fx-background-color: #cccccc;" styleClass="button " text="Выйти из ViraXis" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button13" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button17" layoutX="304" layoutY="224" prefHeight="32" prefWidth="136" style="&#10;-fx-background-color: #cccccc;" styleClass="button " text="Перезапуск системы" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button17" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button18" layoutX="160" layoutY="224" prefHeight="32" prefWidth="136" style="&#10;-fx-background-color: #cccccc;" styleClass="button " text="Выключить систему" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button18" visible="1"/>
+    <Panel backgroundColor="#cccccc" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel3" layoutX="176" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="68" prefWidth="152" styleClass="" title="Инструкция" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="8" prefHeight="56" prefWidth="136" styleClass="label " text="Программа должна распологаться ровно в C:\&#10;" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image3" layoutX="360" layoutY="112" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/V_logo_noir.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image4" layoutX="416" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/V_logo_noir.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="21" id="image5" layoutX="280" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/V_logo_noir.png" visible="1"/>
+  </children>
+</AnchorPane>

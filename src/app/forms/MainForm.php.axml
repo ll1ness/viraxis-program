@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  <method name="doButton10ClickRight">
+      <toast value="Восстанавливает меню вызываемое сочитанием клавиш CTRL+ALT+DELETE" value-type="string"/>
+    </method>
+  <method name="doButton11ClickRight">
+      <toast value="Восстанавливает меню выключения пк" value-type="string"/>
+    </method>
+  <method name="doButton9ClickRight">
+      <toast value="Восстанавливает диспетчер задач и доступ к нему" value-type="string"/>
+    </method>
+  <method name="doButtonClickRight">
+      <toast value="Восстанавливает классический шрифт системы" value-type="string"/>
+    </method>
+  <method name="doButtonAltMouseDownRight">
+      <toast value="Восстанавливает курсор" value-type="string"/>
+    </method>
+  <method name="doButton6MouseDownRight">
+      <toast value="Программа редактирования файлов в текстовом варианте" value-type="string"/>
+    </method>
+  <method name="doButton3MouseDownRight">
+      <toast value="Программа для просмотра всех изменений в файловой системе" value-type="string"/>
+    </method>
+  <method name="doButton4MouseDownRight">
+      <toast value="Управляет процессами без диспетчера задач" value-type="string"/>
+    </method>
+  
+  <method name="doButton7MouseDownRight">
+      <toast value="Файловый менеджер" value-type="string"/>
+    </method>
+  <method name="doButton10Action">
+      <open file="C:\ViraXis\altdelctrl.bat" file-type="string"/>
+    </method>
+  <method name="doButton11Action">
+      <open file="C:\ViraXis\powermenu.bat" file-type="string"/>
+    </method>
+  <method name="doButton9Action">
+      <open file="C:\ViraXis\dispetcher.bat" file-type="string"/>
+    </method>
+  <method name="doButtonAction">
+      <open file="C:\ViraXis\shriftkill.bat" file-type="string"/>
+    </method>
+  <method name="doButtonAltAction">
+      <open file="C:\ViraXis\curres.bat" file-type="string"/>
+    </method>
+  <method name="doButton18Action">
+      <open file="C:\ViraXis\shutdown.bat" file-type="string"/>
+    </method>
+  <method name="doButton17Action">
+      <open file="C:\ViraXis\reset.bat" file-type="string"/>
+    </method>
+  <method name="doButton12Action">
+      <open file="C:\ViraXis\cmdstartw.bat" file-type="string"/>
+    </method>
+  <method name="doButton14Action">
+      <open file="C:\ViraXis\dispetcherss.bat" file-type="string"/>
+    </method>
+  <method name="doButton15Action">
+      <open file="C:\ViraXis\fileexplorsssad.bat" file-type="string"/>
+    </method>
+  <method name="doButton16Action">
+      <open file="C:\ViraXis\parametersz.bat" file-type="string"/>
+    </method>
+  <method name="doButton6Action">
+      <open file="C:\ViraXis\app\Notepad++\natipadiLOL.exe" file-type="string"/>
+    </method>
+  <method name="doButton3Action">
+      <open file="C:\ViraXis\app\abrakadebrovich.exe" file-type="string"/>
+    </method>
+  <method name="doButton4Action">
+      <open file="C:\ViraXis\app\prolaoad.exe" file-type="string"/>
+    </method>
+  <method name="doButton7Action">
+      <open file="C:\ViraXis\app\explorakili.exe" file-type="string"/>
+    </method>
+  </class>
+</root>
